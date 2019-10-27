@@ -1,0 +1,300 @@
+     *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+     }
+ @font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.woff2') format('woff2'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'AlexBrush-Regular';
+  src: url('../fonts/AlexBrush-Regular.eot');
+  src: url('../fonts/AlexBrush-Regular.woff2') format('woff2'),
+       url('../fonts/AlexBrush-Regular.woff') format('woff'),
+       url('../fonts/AlexBrush-Regular.ttf') format('truetype'),
+       url('../fonts/AlexBrush-Regular.svg#AlexBrush-Regular') format('svg'),
+       url('../fonts/AlexBrush-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+     body{
+           background-image:url(../images/bg.jpg);
+           max-width: 100%;
+     }
+    #wrapper
+    {
+          width:940px;
+        
+          background:#F8F8FF;
+          margin:20px auto 20px auto;
+     }
+    header {
+            background-color: aliceblue;
+            background-color: aliceblue;
+            max-width: 100%;
+        height: 196px;       
+        } 
+#logo{
+         width:300px;
+         margin:0 auto;
+         display: block;
+         padding: 2px;
+         
+         float: left;
+        }
+#nav{
+      background: orange;  
+                        
+     }
+#nav_wrapper{
+    margin:0 auto;     text-align: center;     width: 100%;  background: orange;
+}
+#nav ul{
+            padding: o; margin: o;
+            list-style-type: none;
+            position:relative; 
+            list-style: none;
+     }  
+#nav ul li{
+            background-color: orangered;       
+            width: 156.5px;
+            border: 1px solid white;
+            height: 50px;         
+            text-align: center;
+            float: left;
+            color: aqua;
+            font-size: 18px;
+             
+     }
+#nav ul li a{
+            color: #ccc;
+            padding:15px;
+            text-decoration: none;
+            display: block;
+     }
+#nav ul li:hover{ background: #52A0B1;               
+            
+     }  
+#nav ul li:hover ul{ 
+                    display: block;          
+     }  
+#nav ul ul{
+            width: 150px;
+            position: absolute;
+            display: none;
+     }  
+#nav li{
+            list-style-type: none;
+            float:left;
+            width:16.66%;
+            text-align: center;
+     }
+   a{
+         color: #333;
+         text-decoration: none;
+         font-weight: bold;
+         border-radius: 14px;
+     }
+     #nav a:hover{
+         background: #000;
+         color: #fff;
+         display: block;
+     } 
+#banner{
+        
+}  
+     main{    
+         width:580px;
+         float: left;
+     }
+     aside{
+         border: 1px solid black;
+         float:right;
+         width: 340px; 
+         border: 4px;
+         border-style: ridge;
+         padding: 20px;
+         border-color: silver; 
+     }
+#row{
+    display: block;
+}
+    
+.image5{
+    margin-left: 50px;
+}
+#twit{
+    float:right;}
+#inst{
+    float:right;}
+#fb{
+    float:right;}
+.inner{
+    padding:20px 20px;
+    clear: both;
+    
+}
+.left{
+   float: left;
+    width: 48%;
+    padding: 10px; 
+    height: 300px;
+    background-color:beige;  
+     
+}
+.right{
+    
+   float: right;
+    width: 48%;
+    padding: 10px; 
+    height: 300px;
+    background-color:beige; 
+       
+}
+.row1{
+    padding:20px 20px;
+     clear: both;  
+}
+
+.a1{
+   float: left;
+   width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac; 
+    
+}
+.a2{
+   margin: 0 auto;
+    width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac;  
+    display: inline-block;
+    margin-left: 20px;
+}
+.a3{
+   float: right;
+   width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac;  
+    
+}
+.row2{
+    padding:20px 20px;
+    clear: both;
+}
+.b1{
+    float: left;
+    width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac;      
+}
+.b2{
+    margin: 0 auto;
+    width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac; 
+    display: inline-block;
+    margin-left: 20px;
+}
+.b3{
+    float: right;
+    width: 32%;
+    padding: 10px; 
+    height: 280px;
+    background-color:#cbac;      
+}
+
+ /*  two equal columns that floats next to each other */
+.row{
+    padding:20px 20px;
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px; 
+    height: 180px;
+    border: 1px solid black;
+    background-color:#DCDCDC;
+}
+.column2 {
+    float: right;
+    width: 50%;
+    padding: 10px; 
+    height: 180px;
+    border: 1px solid black;
+    background-color:#DCDCDC;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    float: right;
+    clear: both; 
+    
+}
+h1{
+        color: black;
+        text-indent: 1.6em; 
+        text-shadow: 2px 2px 2px #FF0000;
+    font-family: 'AlexBrush-Regular';
+     }
+ h2{
+        color: darkblue;
+        text-indent: 1.6em;
+        font-family: 'architects_daughterregular'; 
+     }
+h3{ color: green;
+    text-indent: 1.6em;
+}
+h4{
+    text-decoration-line: underline;
+     text-decoration-color: red;
+   text-decoration-style: wavy;
+}
+p{  
+    line-height: 1.4;
+    text-indent: 1.6em; 
+    padding-left: 20px;
+}  
+footer{
+         background: #40E0D0;
+         height: 50px;
+         clear:both;
+     }  
+ footer li{
+            float:left;
+            list-style-type: none;
+            margin-right: 50px;
+            padding:  16px;            
+}
+main li{
+  margin-left: 35px;
+   line-height: 1.5;     
+}
+aside li{
+   margin-left: 18px;
+   line-height: 2;     
+}
+#button {
+    width: 6em;
+    border: 2px solid black;
+    background: yellowgreen;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.
