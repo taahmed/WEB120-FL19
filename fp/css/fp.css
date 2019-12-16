@@ -1,0 +1,158 @@
+/* My WEB120 Portal Website Styles */
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+html {
+    background-color:#3c3c3c;
+}
+div.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+p {
+    padding: 10px 20px 15px 10px;
+    color:#253034;
+    font-family: cursive;
+    line-height: 1.6;
+}
+h1>a {
+    padding: 10px;
+    text-decoration: none;
+    color:#253034;
+    font-family: 'Fjalla One', sans-serif;
+}
+h2,h3 {
+    padding: 10px;
+    color:#253034;
+    font-family: 'Fjalla One', sans-serif;  
+}
+
+/*article {
+    overflow: hidden;
+}*/
+.logo {
+    color: #363346;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer{
+         background: #787878;
+         height: 50px;
+         clear:both;
+		 
+     }
+/* START RESPONSIVE STYLES */
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   div.wrapper {
+		width:78%;
+		margin:auto;
+	}
+    section {
+		width:65%;
+		float:left;
+	}
+     aside {	
+		width:34%;
+		float:right;
+         	border-left: 4px solid midnightblue;
+		border-style: outset;
+		border-radius: 12px;
+	}
+   
+    img.desktop {
+        padding: 0 10px;
+        float:left;
+        width:50%;
+		
+   	 } 
+    img.tablet, img.phone {
+       		 display:none;
+    	}  
+    
+          img.aside {
+          margin: 0 auto;
+          padding: 10px;
+       	  width: 80%;
+          height: 80%;
+    }
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #BCBFAA;
+        color:#0F3246;
+   	 }
+}
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:60%;
+		float:left;
+	}
+	
+	 aside{
+         border: 4px solid;
+         float:right;
+         width: 35%; 
+         border-style: ridge;
+         padding: 20px;
+         border-color: silver; 
+     }
+	
+            img.tablet {
+                padding: 0 10px;
+                width:100%;
+           }
+    
+          img.aside {
+			margin: 0 auto;
+			padding: 10px;
+       		width: 80%;
+            height: 80%;
+    }
+           img.phone, img.desktop {
+        		display:none;
+           } 
+    
+    /* Change background color of navigation on selected page */
+           ul.topnav li a.selected {
+        		background-color: #BCBFAA;
+        		color:#0F3246;
+          }
+  }
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+        padding: 0 10px;
+       	width:100%;
+    }
+          img.aside {
+          margin: 0 auto;
+          padding: 10px;
+		  width: 80%;
+          height: 80%;
+    }
+    
+    img.tablet, img.desktop {
+        		display:none;
+    }  
+}
